@@ -15,7 +15,7 @@
 
     <h1>P01: Style Guide</h1>
 
-    <p class="lead">By Sebastien Galina, adapted from the style guide template given in class.</p>
+    <p class="lead">By Sebastien Galina and Rachel Ye, adapted from the style guide template given in class.</p>
 
 
     <nav>
@@ -230,89 +230,87 @@
         </pre>
 
         <h3>Rendered element:</h3>
-        <nav id="main-nav">
+      <nav id="main-nav">
           <div class="grid">
             <div class="col-2of10 brand-box">
-               <h2>Brand</h2>
-               <p>Lorem ipsum dolor sit amet.</p>
+                <h2>Brand</h2>
+                  <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+              <div class="col-8of10 nav-box">
+                <div class="grid">
+                    <div class="col-4of10">
+                      <input type="text" placeholder="Search...">
+                    </div>
+                    <div class="col-2of10">
+                      <a href="#" class="btn btn-nav btn-block">About</a>
+                    </div>
+                    <div class="col-2of10">
+                      <a href="#" class="btn btn-nav btn-block">Packages</a>
+                    </div>
+                    <div class="col-2of10">
+                      <a href="#" class="btn btn-nav btn-block"><span class="fa fa-shopping-cart"></span> My cart</a>
+                    </div>
+                  </div>
+              </div>
             </div>
-            <div class="col-8of10 nav-box">
-              <input type="text" placeholder="Search...">
-              <a href="#" class="btn btn-nav">About us</a>
-              <a href="#" class="btn btn-nav">Browse products</a>
-              <a href="#" class="btn btn-nav"><span class="fa fa-shopping-cart"></span> My cart</a>
-             </div>
-          </div>
-         </nav>
+        </nav>
       </section>
 
       <section>
         <h2>Product Listing</h2>
         <h3>CSS selector:</h3>
+        <p>#product-list</p>
         <h3>Sample code:</h3>
         <h3>Rendered element:</h3>
         <div id="products-list">
-          <div class="grid">
-            <div class="col-7of10">
-              <div class="product-feature">
-                <img src="holder.js/900x400" width="900" height="400" alt="900x400">
-                <h2>Feature Heading</h2>
-                <p class="lead">With some more featured text underneath.</p>
-              </div>
-            </div>
-            <div class="col-3of10">
-              <div class="product-feature-side">
-                <h4>Fresh Kiwis</h4>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </div>
-              <div class="product-feature-side">
-                <h4>And Pears</h4>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </div>
-              <div class="product-feature-side">
-                <h4>Lastly, Starfruit</h4>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </div>
-            </div>
-          </div>
           <h3>Flowers</h3>
           <div class="grid category-fruits">
             <div class="col-2of10">
               <div class="product-tile">
-                <img src="holder.js/200x125" width="200" height="150" alt="200x150">
-                <h4>Rose</h4>
+                <a href="#">
+                  <img src="holder.js/200x125" width="200" height="150" alt="200x150">
+                  <h4>Rose</h4>
+                </a>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
             </div>
             <div class="col-2of10">
               <div class="product-tile">
-                <img src="holder.js/200x125" width="200" height="150" alt="200x150">
-                <h4>Tulip</h4>
+                <a href="#">
+                  <img src="holder.js/200x125" width="200" height="150" alt="200x150">
+                  <h4>Tulip</h4>
+                </a>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
             </div>
             <div class="col-2of10">
               <div class="product-tile">
-                <img src="holder.js/200x125" width="200" height="150" alt="200x150">
-                <h4>Calia</h4>
+                <a href="#">
+                  <img src="holder.js/200x125" width="200" height="150" alt="200x150">
+                  <h4>Calia</h4>
+                </a>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
             </div>
             <div class="col-2of10">
               <div class="product-tile">
-                <img src="holder.js/200x125" width="200" height="150" alt="200x150">
-                <h4>Sunflower</h4>
+                <a href="#">
+                  <img src="holder.js/200x125" width="200" height="150" alt="200x150">
+                  <h4>Sunflower</h4>
+                </a>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
             </div>
             <div class="col-2of10">
               <div class="product-tile">
-                <img src="holder.js/200x125" width="200" height="150" alt="200x150">
-                <h4>Orchid</h4>
+                <a href="#">
+                  <img src="holder.js/200x125" width="200" height="150" alt="200x150">
+                  <h4>Orchid</h4>
+                </a>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
@@ -321,32 +319,40 @@
           <div class="grid category-fruits">
             <div class="col-2of10">
               <div class="product-tile">
-                <img src="holder.js/200x125" width="200" height="150" alt="200x150">
-                <h4>Daisy</h4>
+                <a href="#">
+                  <img src="holder.js/200x125" width="200" height="150" alt="200x150">
+                  <h4>Daisy</h4>
+                </a>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
             </div>
             <div class="col-2of10">
               <div class="product-tile">
-                <img src="holder.js/200x125" width="200" height="150" alt="200x150">
-                <h4>Carnation</h4>
+                <a href="#">
+                  <img src="holder.js/200x125" width="200" height="150" alt="200x150">
+                  <h4>Carnation</h4>
+                </a>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
             </div>
             <div class="col-2of10">
               <div class="product-tile">
-                <img src="holder.js/200x125" width="200" height="150" alt="200x150">
-                <h4>Bird of Paradise</h4>
+                <a href="#">
+                  <img src="holder.js/200x125" width="200" height="150" alt="200x150">
+                  <h4>Bird of Paradise</h4>
+                </a>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
             </div>
             <div class="col-2of10">
               <div class="product-tile">
-                <img src="holder.js/200x125" width="200" height="150" alt="200x150">
-                <h4>Bounquet</h4>
+                <a href="#">
+                  <img src="holder.js/200x125" width="200" height="150" alt="200x150">
+                  <h4>Bounquet</h4>
+                </a>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                 tempor incididunt ut labore et dolore magna aliqua.</p>
               </div>
@@ -363,94 +369,108 @@
               </div>
             </div>
           </div>
-          <!-- <h3>Vegetables</h3>
-          <div class="grid category-veggies">
-            <div class="col-2of10">
-              <div class="product-tile">
-                <img src="holder.js/200x125" width="200" height="150" alt="200x150">
-                <h4>Broccoli</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
-            </div>
-            <div class="col-2of10">
-              <div class="product-tile">
-                <img src="holder.js/200x125" width="200" height="150" alt="200x150">
-                <h4>Carrots</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
-            </div>
-            <div class="col-2of10">
-              <div class="product-tile">
-                <img src="holder.js/200x125" width="200" height="150" alt="200x150">
-                <h4>Spinach</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
-            </div>
-            <div class="col-2of10">
-              <div class="product-tile">
-                <img src="holder.js/200x125" width="200" height="150" alt="200x150">
-                <h4>Lettuce</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
-            </div>
-            <div class="col-2of10">
-              <div class="product-tile">
-                <img src="holder.js/200x125" width="200" height="150" alt="200x150">
-                <h4>Celery</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
-            </div>
-          </div>
-          <div class="grid category-veggies">
-            <div class="col-2of10">
-              <div class="product-tile">
-                <img src="holder.js/200x125" width="200" height="150" alt="200x150">
-                <h4>Mushrooms</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
-            </div>
-            <div class="col-2of10">
-              <div class="product-tile">
-                <img src="holder.js/200x125" width="200" height="150" alt="200x150">
-                <h4>Tomatoes</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
-            </div>
-            <div class="col-2of10">
-              <div class="product-tile">
-                <img src="holder.js/200x125" width="200" height="150" alt="200x150">
-                <h4>Cucumbers</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
-            </div>
-            <div class="col-2of10">
-              <div class="product-tile">
-                <img src="holder.js/200x125" width="200" height="150" alt="200x150">
-                <h4>Zuchini</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.</p>
-              </div>
-            </div>
-            <div class="col-2of10">
-              <a href="#">
-                <div class="link-tile">
-                  <div class="link-tile-content">
-                    List more...
-                  </div>
-                </div>
-              </a>
-            </div> -->
           </div>
         </div>
       </section>
+
+      <section>
+        <h2>Product Detail</h2>
+        <h3>CSS selector:</h3>
+        <p>#product-detail</p>
+        <h3>Sample code:</h3>
+        <h3>Rendered element:</h3>
+        <div id="product-detail">
+          <h1>Roses</h1>
+          <div class="grid">
+            <div class="col-5of10">
+              <div class="product-feature">
+                <img src="holder.js/600x600" width="600" height="600" alt="600x600">
+              </div>
+            </div>
+            <div class="col-5of10">
+              <div class="product-feature">
+              <div>
+                <h2>Breed</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, fuga repellendus ipsa expedita nam distinctio placeat unde numquam deserunt quisquam magni, reiciendis est ad fugit at nesciunt eos iure consequatur.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, fuga repellendus ipsa expedita nam distinctio placeat unde numquam deserunt quisquam magni, reiciendis est ad fugit at nesciunt eos iure consequatur.</p>
+                <h2>Best Occasions</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, fuga repellendus ipsa expedita nam distinctio placeat unde numquam deserunt quisquam magni, reiciendis est ad fugit at nesciunt eos iure consequatur.</p>
+                <h2>Growth Conditions</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, fuga repellendus ipsa expedita nam distinctio placeat unde numquam deserunt quisquam magni, reiciendis est ad fugit at nesciunt eos iure consequatur.</p>
+                <hr>
+                <h2>Customize</h2>
+                <div class="grid product-customize">
+                <div class="col-3of10">
+                  <p class="lead">Quantity</p>
+                  <input type="text" value="3">
+                </div><!-- end .col-5of10 -->
+
+                <div class="col-3of10">
+                  <p class="lead">Colour</p>
+                  <a href="#">
+                    <img src="holder.js/20x20?bg=#F00&fg=#F00" width="20" height="20">
+                  </a>
+                  <a href="#">
+                    <img src="holder.js/20x20?bg=#F60&fg=#F60" width="20" height="20">
+                  </a>
+                  <a href="#">
+                    <img src="holder.js/20x20?bg=#DDD&fg=#DDD" width="20" height="20">
+                  </a>
+                  <a href="#">
+                    <img src="holder.js/20x20?bg=#333&fg=#333" width="20" height="20">
+                  </a>
+                </div><!-- end .col-5of10 -->
+
+                <div class="col-3of10">
+                  <p class="lead">Breed</p>
+                  <select>
+                    <option>Lorem Ipsum</option>
+                    <option>Lorem Ipsum</option>
+                    <option>Lorem Ipsum</option>
+                    <option>Lorem Ipsum</option>
+                  </select>
+                </div><!-- end .col-5of10 -->
+              </div><!-- end .grid -->
+              </div>
+            </div><!-- end .product-feature -->
+          </div><!-- end .col-5of10 -->
+          </div><!-- end .grid -->
+        </div>
+
+        <div id="product-detail">
+              <h1>Custom Wedding Package</h1>
+              <div class="grid">
+            <div class="col-4of12">
+              <img src="holder.js/400x300" width="400" height="300" alt="Wedding centerpiece">
+            </div>
+            <div class="col-4of12">
+              <img src="holder.js/400x300?bg=090" width="400" height="300" alt="Wedding centerpiece">
+            </div>
+            <div class="col-4of12">
+              <img src="holder.js/400x300?bg=0A0" width="400" height="300" alt="Wedding centerpiece">
+            </div>
+          </div>
+          <p class="lead">Perfect for your fabulous winter getaway, or your spring into married life.</p>
+
+          <div class="grid planter-box">
+            <div class="col-2of10">
+              <img src="holder.js/250x100/" width="250" height="100">
+            </div>
+            <div class="col-2of10">
+              <img src="holder.js/250x100?bg=9A9&fg=FFF" width="250" height="100">
+            </div>
+            <div class="col-2of10">
+              <img src="holder.js/250x100?bg=6A6&fg=EEE" width="250" height="100">
+            </div>
+            <div class="col-2of10">
+              <img src="holder.js/250x100?bg=3A3" width="250" height="100">
+            </div>
+            <div class="col-2of10">
+              <img src="holder.js/250x100?bg=0A0" width="250" height="100">
+            </div>
+          </div>
+      </section>
+
 
     </section>
     <!-- // COMBINED ELEMENTS SECTION -->

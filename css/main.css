@@ -46,6 +46,8 @@ section code {
   -webkit-transition: all 0.25s ease-out;
      -moz-transition: all 0.25s ease-out;
           transition: all 0.25s ease-out;
+  text-align: center;
+  font-weight: bold;
 }
 
 .btn:hover, .btn:focus {
@@ -81,6 +83,10 @@ section code {
   color: #EEDD00;
 }
 
+.btn.btn-block {
+  width: 100%;
+  display: block;
+}
 
 /* 
   TEXT ELEMENTS -------------------
@@ -92,19 +98,28 @@ section code {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: lighter;
-  font-family: "Bree Serif", "Helvetica Neue", "Helvetica", "Arial", "Verdana", sans-serif;
+  font-family: "Gafata", "Helvetica Neue", "Helvetica", "Arial", "Verdana", sans-serif;
   text-transform: uppercase;
 }
 
 p.lead {
-  font-family: "Bree Serif";
+  font-family: "Gafata", "Helvetica Neue", "Helvetica", "Arial", "Verdana" sans-serif;
+  font-size: 1.4em;
+  margin: 2.5em auto;
+  text-align: center;
 }
 
 h1 {
   font-family: "MF", "Helvetica Neue", "Helvetica", "Arial", "Verdana", sans-serif;
-  margin: 0.3em 0;
+  margin-bottom: 0;
   color: #00CC00;
   font-size: 3rem;
+}
+
+.numeric-bullet {
+  font-family: "MF";
+  color: #00CC00;
+  font-size: 2em;
 }
 
 a {
@@ -228,6 +243,10 @@ button, input[type='submit'] {
   text-align: right;
 }
 
+#main-nav .btn.btn-nav {
+  margin: 0;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -309,4 +328,37 @@ img {
 
 .pagination ul>li:before {
   content: none;
+}
+
+
+/* ---------------------- PRODUCT DETAIL ------------------------ */
+#product-detail {
+}
+
+#product-detail .product-customize .col-3of10 {
+  padding-right: 1em;
+}
+
+
+/* ------------------------- PRODUCT DETAIL 2 (SEB) ----------------------------- */
+#product-detail .planter-box {
+  margin: 2.5em auto;
+}
+
+#product-detail .grid .text-box {
+  padding: 1.5em;
+  font-size: 1.2em;
+}
+
+#product-detail .grid .text-box-featured {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#product-detail .grid .text-box-featured p {
+  margin: 0 auto;
+}
+
+#product-detail .order-box {
+  text-align: center;
 }

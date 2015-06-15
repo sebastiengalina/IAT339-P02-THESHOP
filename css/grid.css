@@ -13,7 +13,7 @@
 [class^='col-'] {
 	float: left;
 	padding: 0;
-	text-align: center;
+	text-align: left;
 }
 
 .col-2of10 {
@@ -24,8 +24,16 @@
 	width: 30%;
 }
 
+.col-4of10 {
+	width: 40%;
+}
+
 .col-5of10 {
 	width: 50%;
+}
+
+.col-6of10 {
+	width: 60%;
 }
 
 .col-7of10 {
@@ -36,6 +44,22 @@
 	width: 80%;
 }
 
+.col-9of10 {
+	width: 90%;
+}
+
 .col-10of10 {
+	width: 100%;
+}
+
+.col-4of12 {
+	width: 33.333333%;
+}
+
+.col-8of12 {
+	width: 66.666666%;
+}
+
+.col-12of12 {
 	width: 100%;
 }
