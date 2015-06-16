@@ -4,7 +4,8 @@
 */
 body {
   font-family: "Gafata", "Helvetica Neue", "Helvetica", "Arial", "Verdana", sans-serif;
-  padding: 2rem;
+  padding: 0;
+  margin: 0;
 }
 
 section:not([id]) {
@@ -26,6 +27,10 @@ section code {
   padding: 0.5em 0.75em;
   display: block;
   margin-bottom: 0.5em;
+}
+
+#wrap {
+  padding: 2rem;
 }
 
 /* 
@@ -361,4 +366,28 @@ img {
 
 #product-detail .order-box {
   text-align: center;
+}
+
+/* ------------------------- FOOTER --------------------------- */
+#footer-main {
+  margin-top: 3em;
+  background-color: #CCC;
+}
+
+.footer-row {
+  padding: 2.5em;
+  max-width: 60em;
+  margin: 0 auto;
+}
+
+.footer-row .footer-feature {
+  padding: 1em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-row .footer-feature p {
+  max-width: 12.5em;
+  text-align: left;
+  margin: 0 auto;
 }
