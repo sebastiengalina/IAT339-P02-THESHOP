@@ -8,29 +8,10 @@ body {
   margin: 0;
 }
 
-section:not([id]) {
-  margin: 1em 0;
-  padding: 0.5em 0;
-  border-top: 1px solid #DDD;
-}
-
-section h3 {
-  margin-bottom: 0.5em;
-}
-
-section p {
-  margin-top: 0;
-}
-
-section code {
-  background-color: #EEE;
-  padding: 0.5em 0.75em;
-  display: block;
-  margin-bottom: 0.5em;
-}
-
 #wrap {
   padding: 2rem;
+  max-width: 80em;
+  margin: 0 auto;
 }
 
 /* 
@@ -109,7 +90,8 @@ h1, h2, h3, h4, h5, h6 {
 
 p.lead {
   font-family: "Gafata", "Helvetica Neue", "Helvetica", "Arial", "Verdana" sans-serif;
-  font-size: 1.4em;
+  font-size: 1.5em;
+  font-weight: bold;
   margin: 2.5em auto;
   text-align: center;
 }
@@ -232,11 +214,12 @@ button, input[type='submit'] {
 }
 
 #main-nav [class^='col-'] {
-  padding: 1rem;
+  padding: 0.3rem;
 }
 
 #main-nav .brand-box {
   text-align: left;
+  padding: 1rem 0.5rem;
 }
 
 #main-nav .brand-box h2,
@@ -353,6 +336,7 @@ img {
 #product-detail .grid .text-box {
   padding: 1.5em;
   font-size: 1.2em;
+  text-align: left;
 }
 
 #product-detail .grid .text-box-featured {
@@ -367,6 +351,26 @@ img {
 #product-detail .order-box {
   text-align: center;
 }
+
+/* ------------------------- ABOUT --------------------------- */
+#about-detail section {
+  text-align: left;
+}
+
+.blogpost {
+  margin-bottom: 1rem;
+  border: thin #EEE solid;
+}
+
+.blogpost .blogpost-media {
+  margin: 1rem auto;
+}
+
+.blogpost .blogpost-text {
+  text-align: left;
+  padding: 0.5em;
+}
+
 
 /* ------------------------- FOOTER --------------------------- */
 #footer-main {
@@ -384,6 +388,13 @@ img {
   padding: 1em;
   margin: 0 auto;
   text-align: center;
+}
+
+.footer-row .footer-feature h4 {
+  margin: 0.25em 0;
+  font-size: 2em;
+  font-family: "MF", "Gafata", "Helvetica Neue", "Helvetica", "Arial", "Verdana", sans-serif;
+  color: #00CC00;
 }
 
 .footer-row .footer-feature p {
