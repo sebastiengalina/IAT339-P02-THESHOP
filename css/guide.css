@@ -1,3 +1,7 @@
+body {
+	padding: 2rem !important;
+}
+
 section:not([id]) {
   margin: 1em 0;
   padding: 0.5em 0;

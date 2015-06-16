@@ -208,9 +208,15 @@ button, input[type='submit'] {
 /* 
   COMBINED ELEMENTS -------------------
 */
+#header-main {
+  border: thin #EEE solid;
+}
+
 
 #main-nav {
-  border: thin #EEE solid;
+  padding: 0 1.5rem;
+  max-width: 80em;
+  margin: 0 auto;
 }
 
 #main-nav [class^='col-'] {
