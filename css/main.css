@@ -199,6 +199,10 @@ textarea:focus {
           transition: all 0.25s ease-out;
 }
 
+input.error {
+  border-color: #F00;
+}
+
 select {
   padding: 0.5em;
   background: none;
