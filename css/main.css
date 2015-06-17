@@ -24,8 +24,8 @@ body {
   padding: 0.5em 0.75em;
   margin: 0 0.25em;
   padding: 1em 1.2em;
-  background-color: #DDD;
   color: #666;
+  background-color: #DDD;
   border: 3px solid #ddd;
   /*border-radius: 0.25em;*/
   text-decoration: none;
@@ -140,6 +140,17 @@ ul li:before {
 
 p, ul, ol {
   max-width: 40em;
+}
+
+figure {
+  max-width: 40em;
+  text-align: left;
+  padding: 0;
+  margin: 2em 0;
+}
+
+figcaption {
+  text-transform: italic;
 }
 
 
@@ -363,13 +374,25 @@ img {
   text-align: left;
 }
 
+#about-detail .grid > [class^='col-'] {
+  padding: 1rem;
+}
+
 .blogpost {
   margin-bottom: 1rem;
   border: thin #EEE solid;
 }
 
+.blogpost:hover .blogpost-media img {
+  border-color: #00CC00;
+}
+
 .blogpost .blogpost-media {
-  margin: 1rem auto;
+  margin: 1rem;
+}
+
+.blogpost .blogpost-media img {
+  border: 3px transparent solid;
 }
 
 .blogpost .blogpost-text {
