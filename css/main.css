@@ -220,6 +220,14 @@ button, input[type='submit'] {
   font-size: 1em;
 }
 
+
+.form-actions {
+  margin: 1rem auto;
+}
+.form-actions .btn {
+  margin: 0;
+}
+
 /* 
   COMBINED ELEMENTS -------------------
 */
@@ -454,6 +462,10 @@ img {
   cursor: pointer;
   background-color: #00CC00;
   color: #FFF;
+}
+
+.payment-reminder {
+  text-align: left;
 }
 
 /* ------------------------- FOOTER --------------------------- */
