@@ -8,12 +8,13 @@
 		<script src="../js/holder.min.js"></script>
 		<script src="../js/cart.js"></script>
 
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>My Cart (1)</title>	
 	</head>
 
 	<body>
-		<header id="header-main">
-		    <nav id="main-nav">
+		<header id="header-main" role="banner">
+		    <nav id="main-nav" role="navigation">
 	        	<div class="grid">
 	        		<div class="col-4of10 brand-box">
 	            		<h2><a href="index.html">Brand</a></h2>
@@ -22,7 +23,9 @@
 	            	<div class="col-6of10 nav-box">
 	            		<div class="grid">
 	              			<div class="col-4of10">
-	              				<input type="text" placeholder="Search...">
+	              				<form id="search-form" action="#">
+	              					<input role="search" type="text" name="search-box" placeholder="Search...">
+	              				</form>
 	              			</div>
 	              			<div class="col-2of10">
 	              				<a href="about.html" class="btn btn-nav btn-block">About</a>
@@ -130,6 +133,7 @@
 									</thead>
 									<tbody>
 										<tr>
+											<td>
 											<div class="form-group">
 												<label>Payment Method:</label>
 												<div class="grid payment-methods">
@@ -162,20 +166,26 @@
 													</div>
 												</div>
 											</div><!-- end .form-group -->
+											</td>
 										</tr>
 										<tr>
+											<td>
 											<div class="form-group">
 												<label for="form-name-2">Cardholder Name:</label>
 												<input type="text" id="form-name-2" placeholder="Jane Doe" required>
 											</div>
+											</td>
 										</tr>
 										<tr>
+											<td>
 											<div class="form-group">
 												<label for="form-name-3">Credit Card Number:</label>
 												<input type="text" id="form-name-3" placeholder="XXXXXXXXXXXXXXXXX" required>
 											</div>
+											</td>
 										</tr>
 										<tr>
+											<td>
 											<div class="grid card-details">
 												<div class="col-4of12">
 													<div class="form-group">
@@ -218,6 +228,7 @@
 													</div>
 											    </div>
 											</div><!-- end .grid -->
+											</td>
 										</tr>
 									</tbody>
 								</table>

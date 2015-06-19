@@ -6,12 +6,13 @@
 		<link rel="stylesheet" href="../css/grid.css">
 		<script src="../js/holder.min.js"></script>
 
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Product Detail</title>	
 	</head>
 
 	<body>
-		<header id="header-main">
-		    <nav id="main-nav">
+		<header id="header-main" role="banner">
+		    <nav id="main-nav" role="navigation">
 	        	<div class="grid">
 	        		<div class="col-4of10 brand-box">
 	            		<h2><a href="index.html">Brand</a></h2>
@@ -20,7 +21,9 @@
 	            	<div class="col-6of10 nav-box">
 	            		<div class="grid">
 	              			<div class="col-4of10">
-	              				<input type="text" placeholder="Search...">
+	              				<form id="search-form" action="#">
+	              					<input role="search" type="text" name="search-box" placeholder="Search...">
+	              				</form>
 	              			</div>
 	              			<div class="col-2of10">
 	              				<a href="about.html" class="btn btn-nav btn-block">About</a>
@@ -114,7 +117,7 @@
 						<img src="holder.js/250x100?bg=0A0" width="250" height="100">
 					</div>
 				</div><!-- end .grid.planter-box -->
-		
+
 			</div>
 		</div><!-- end #wrap -->
 

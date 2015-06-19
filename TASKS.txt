@@ -1,0 +1,16 @@
+TASKS
+
+- Branding logo/title
+- Navigation bar for mobile (dropdown near bottom for easy thumb access)
+- Move reviews to product detail page
+- Review/Feedback form on product detail page (near the bottom?)
+- Reinforce 3-step narrative (from footer) on the index page
+- Clean up credit-card form (faded until user clicks Pay)
+- Icons for narrative
+- Make search bar longer
+- Filter column for product listing
+- Add review (stars) to product listing?
+- content citations page
+- Payment confirmation page
+- Responsive images
+- Interactivity / Functional / Usability / Pleasurable

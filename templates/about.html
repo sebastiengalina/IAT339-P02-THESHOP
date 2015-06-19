@@ -6,12 +6,13 @@
 		<link rel="stylesheet" href="../css/grid.css">
 		<script src="../js/holder.min.js"></script>
 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>About us</title>	
 	</head>
 
 	<body>
-		<header id="header-main">
-		    <nav id="main-nav">
+		<header id="header-main" role="banner">
+		    <nav id="main-nav" role="navigation">
 	        	<div class="grid">
 	        		<div class="col-4of10 brand-box">
 	            		<h2><a href="index.html">Brand</a></h2>
@@ -20,7 +21,9 @@
 	            	<div class="col-6of10 nav-box">
 	            		<div class="grid">
 	              			<div class="col-4of10">
-	              				<input type="text" placeholder="Search...">
+	              				<form id="search-form" action="#">
+	              					<input role="search" type="text" name="search-box" placeholder="Search...">
+	              				</form>
 	              			</div>
 	              			<div class="col-2of10">
 	              				<a href="about.html" class="btn btn-nav btn-block">About</a>
@@ -38,7 +41,7 @@
         </header><!-- end #header-main -->
 
 		<div id="wrap">
-			<div id="about-detail">
+			<div id="about-detail" role="main">
 		        <h1>About us</h1>
 		        <div class="grid">
 					<div class="col-12of12">
@@ -123,7 +126,7 @@
 				</div>
 			</div>
 
-			<div id="contact-detail">
+			<div id="contact-detail" role="form">
 		        <h1>Contact us</h1>
 		        <div class="grid">
 					<div class="col-12of12">
@@ -131,15 +134,15 @@
 						<form method="get" action="#">
 				          <div class="form-group">
 				            <label for="form-1-1">Name</label>
-				            <input id="form-1-1" type="text">
+				            <input id="form-1-1" type="text" name="name">
 				          </div>
 				          <div class="form-group">
 				            <label for="form-1-2">Email</label>
-				            <input id="form-1-2" type="email">
+				            <input id="form-1-2" type="email" name="email">
 				          </div>
 				          <div class="form-group">
 				            <label for="form-1-3">Comment</label>
-				            <textarea id="form-1-3" rows="4"></textarea>
+				            <textarea id="form-1-3" rows="4" name="comment"></textarea>
 				          </div>
 				          <div class="form-group">
 				            <label for="form-1-5">Submit/Reset</label>
@@ -199,7 +202,7 @@
 			</div>
 			<div class="footer-contact">
 				<div class="footer-row">
-					<h4>Order today!</h4>
+					<h4>Making floral gifts come to life.</h4>
 				</div>
 			</div>
 		</footer>
