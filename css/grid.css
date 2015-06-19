@@ -123,6 +123,11 @@
 	#about-detail .blogpost h3 {
 		font-size: 2em;
 	}
+
+	#product-detail .col-6of10,
+	#product-detail .col-4of10 {
+		width: 50%;
+	}
 }
 
 @media(max-width: 59.0625em) {
@@ -136,6 +141,9 @@
 	#product-detail .col-6of10,
 	#product-detail .col-4of10 {
 		width: 100%;
+	}
+	#product-detail .col-4of10 .text-box {
+		text-align: center;
 	}
 }
 

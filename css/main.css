@@ -432,6 +432,20 @@ img {
   padding-right: 1em;
 }
 
+.price-box {
+  padding: 2em;
+  font-size: 2em;
+}
+
+.price-box .numeric {
+  color: #00CC00;
+  font-family: "MF", "Gafata", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 2em;
+}
+
+.price-box .description {
+  font-size: 0.7em;
+}
 
 /* ------------------------- PRODUCT DETAIL 2 (SEB) ----------------------------- */
 #product-detail .planter-box {
@@ -529,6 +543,7 @@ img {
 
 .quantity-toggle-group input {
   padding: 0.5em;
+  max-width: 4em;
   width: auto;
 }
 
