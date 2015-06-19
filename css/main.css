@@ -269,6 +269,7 @@ img {
   height: auto;
 }
 
+/* ---------------------- PRODUCT LIST ------------------------ */
 .product-feature,
 .product-feature-side {
   text-align: left;
@@ -302,7 +303,8 @@ img {
   max-width: 13em;
 }
 
-#products-list .category-fruits .product-tile:hover {
+#products-list .category-fruits .product-tile:hover,
+.product-tile:hover {
   border-color: #DFEDC8;
   background-color: #DFEDC8;
 }
@@ -347,7 +349,30 @@ img {
   content: none;
 }
 
+.pagination a{
+  text-decoration: none;
+}
 
+.pagination a.active{
+  text-decoration: underline;
+}
+
+/* ---------------------- PRODUCT LIST ------------------------ */
+#product-list {
+  padding-top: 1rem;
+}
+
+.product-item {
+  margin-bottom: 2rem;
+}
+/*.product-item img {
+  border: 3px transparent solid;
+}
+
+.product-item:hover img {
+  border-color: #00CC00;
+}
+*/
 /* ---------------------- PRODUCT DETAIL ------------------------ */
 #product-detail {
 }
