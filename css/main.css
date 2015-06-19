@@ -218,6 +218,7 @@ button, input[type='submit'] {
   color: #022211;
   border: 3px solid #022211;
   font-size: 1em;
+  margin: 0;
 }
 
 
@@ -437,6 +438,9 @@ img {
   padding: 0.5em;
 }
 
+#contact-detail .grid form{
+  text-align: left;
+}
 
 /* ------------------------ PAYMENTS ------------------------- */
 .table {
