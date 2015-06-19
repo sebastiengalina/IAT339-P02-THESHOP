@@ -312,21 +312,8 @@ img {
 
 #services-panel,
 #review-panel,
-.review-text,
 .service-text {
   text-align: left;
-}
-
-.review {
-  margin-bottom: 2rem;
-}
-
-#review-panel h1 {
-  margin: 0.83em 0;
-}
-
-.review-text h3 {
-  margin-top: 0;
 }
 
 #services-panel h2 {
@@ -479,24 +466,28 @@ img {
   padding: 1rem;
 }
 
-.blogpost {
+.blogpost, .review {
   margin-bottom: 1rem;
-  border: thin #EEE solid;
+  border: thin #CCC solid;
 }
 
-.blogpost:hover .blogpost-media img {
+.blogpost:hover .blogpost-media img,
+.review:hover .review-media img {
   border-color: #00CC00;
 }
 
-.blogpost .blogpost-media {
+.blogpost .blogpost-media,
+.review .review-media {
   margin: 1rem;
 }
 
-.blogpost .blogpost-media img {
+.blogpost .blogpost-media img,
+.review .review-media img {
   border: 3px transparent solid;
 }
 
-.blogpost .blogpost-text {
+.blogpost .blogpost-text,
+.review .review-text {
   text-align: left;
   padding: 0.5em;
 }
@@ -556,8 +547,14 @@ img {
   color: #FFF;
 }
 
-.payment-reminder {
+.payment-reminders {
+  border: thin #CCC solid;
   text-align: left;
+  padding: 0 1rem;
+}
+
+.payment-reminders h2 {
+  margin: 0.3em;
 }
 
 /* ------------------------- FOOTER --------------------------- */
@@ -589,4 +586,32 @@ img {
   max-width: 12.5em;
   text-align: left;
   margin: 0 auto;
+}
+
+.footer-social {
+  background-color: #333;
+}
+
+.footer-social .footer-row,
+.footer-contact .footer-row {
+  max-width: 30em;
+  padding: 0.5em;
+}
+
+.footer-social .footer-row a {
+  text-decoration: none;
+}
+
+.footer-social .footer-row h4 {
+  margin: 0;
+}
+
+.footer-contact {
+  text-align: center;
+  background-color: #222;
+  color: #FFF;
+}
+
+.footer-contact .footer-row h4 {
+  margin: 0;
 }

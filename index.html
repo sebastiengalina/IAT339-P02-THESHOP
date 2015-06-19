@@ -20,16 +20,13 @@
 
 
     <nav>
-      
       <p>
         Go to:
         <a href="#interactive_elements">Interactive Elements</a>,
         <a href="#text_elements">Text Elements</a>,
         <a href="#combined_elements">Combined Elements</a>,
         <a href="sketches.html">Sketches</a>,
-
       </p>
-
     </nav>
 
 
@@ -156,13 +153,13 @@
         <h3>Sample code:</h3>
         <pre>
           <code>
-          &lt;ul&gt;
-            &lt;li&gt;Item 1&lt;/li&gt;
-            &lt;li&gt;Item 2&lt;/li&gt;
-            &lt;li&gt;Item 3&lt;/li&gt;
-            &lt;li&gt;Item 4&lt;/li&gt;
-            &lt;li&gt;Item 5&lt;/li&gt;
-          &lt;/ul&gt;
+&lt;ul&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+  &lt;li&gt;Item 3&lt;/li&gt;
+  &lt;li&gt;Item 4&lt;/li&gt;
+  &lt;li&gt;Item 5&lt;/li&gt;
+&lt;/ul&gt;
           </code>
         </pre>
         <ul>
@@ -181,13 +178,13 @@
         <h3>Sample code:</h3>
         <pre>
           <code>
-          &lt;ol&gt;
-            &lt;li&gt;Item 1&lt;/li&gt;
-            &lt;li&gt;Item 2&lt;/li&gt;
-            &lt;li&gt;Item 3&lt;/li&gt;
-            &lt;li&gt;Item 4&lt;/li&gt;
-            &lt;li&gt;Item 5&lt;/li&gt;
-          &lt;/ol&gt;
+&lt;ol&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+  &lt;li&gt;Item 3&lt;/li&gt;
+  &lt;li&gt;Item 4&lt;/li&gt;
+  &lt;li&gt;Item 5&lt;/li&gt;
+&lt;/ol&gt;
           </code>
         </pre>
         <ol>
@@ -214,19 +211,19 @@
         <h3>Sample code:</h3>
         <pre>
         <code>
-            &lt;nav id="main-nav"&gt;
-              &lt;div class="grid"&gt;
-                &lt;div class="col-2of10 brand-box"&gt;
-                  &lt;h2&gt;Brand&lt;/h2&gt;
-                  &lt;p&gt;Lorem ipsum dolor sit amet.&lt;/p&gt;
-                &lt;/div>
-                &lt;div class="col-8of10 nav-box"&gt;
-                  &lt;input type="text" placeholder="Search..."&gt;
-                  &lt;a href="#" class="btn btn-nav"&gt;About us&lt;/a&gt;
-                  &lt;a href="#" class="btn btn-nav"&gt;Browse products&lt;/a&gt;
-                  &lt;a href="#" class="btn btn-nav"&gt;My cart&lt;/a&gt;
-                &lt;/div&gt;
-            &lt;/nav&gt;
+&lt;nav id="main-nav"&gt;
+  &lt;div class="grid"&gt;
+    &lt;div class="col-2of10 brand-box"&gt;
+      &lt;h2&gt;Brand&lt;/h2&gt;
+      &lt;p&gt;Lorem ipsum dolor sit amet.&lt;/p&gt;
+    &lt;/div>
+    &lt;div class="col-8of10 nav-box"&gt;
+      &lt;input type="text" placeholder="Search..."&gt;
+      &lt;a href="#" class="btn btn-nav"&gt;About us&lt;/a&gt;
+      &lt;a href="#" class="btn btn-nav"&gt;Browse products&lt;/a&gt;
+      &lt;a href="#" class="btn btn-nav"&gt;My cart&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/nav&gt;
         </code>
         </pre>
 
@@ -263,7 +260,19 @@
         <h2>Product Listing</h2>
         <h3>CSS selector:</h3>
         <p>#product-list</p>
-        <h3>Sample code:</h3>
+        <h3>Sample code (individual tile):</h3>
+        <pre>
+          <code>
+&lt;div class="product-tile"&gt;
+  &lt;a href="#"&gt;
+    &lt;img src="holder.js/200x125" width="200" height="150" alt="200x150"&gt;
+    &lt;h4&gt;Tulip&lt;/h4&gt;
+  &lt;/a&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;
+&lt;/div&gt;
+          </code>
+        </pre>
         <h3>Rendered element:</h3>
         <div id="products-list">
           <h3>Flowers</h3>
@@ -429,6 +438,25 @@
         <h3>CSS selector:</h3>
         <p>.blogpost</p>
         <h3>Sample code:</h3>
+        <pre>
+          <code>
+&lt;section class="blogpost"&gt;
+  &lt;div class="grid"&gt;
+    &lt;div class="col-4of10"&gt;
+      &lt;div class="blogpost-media"&gt;
+        &lt;img src="holder.js/150x150"&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="col-6of10"&gt;
+      &lt;div class="blogpost-text"&gt;
+        &lt;h3&gt;Blog Post 2&lt;/h3&gt;
+        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed odio iure ducimus, accusamus placeat voluptates, quaerat minus doloribus vero accusantium? Quae modi, quia in ... &lt;a href="#"&gt;Read more &lt;span class="fa fa-long-arrow-right"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;          
+          </code>
+        </pre>
         <h3>Rendered element:</h3>
 
         <div id="about-detail">
@@ -459,6 +487,81 @@
         <h3>CSS selector:</h3>
         <p>.order-form</p>
         <h3>Sample code:</h3>
+        <pre>
+          <code>
+&lt;table class="table order-form"&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Package&lt;/th&gt;
+      &lt;th&gt;Quantity&lt;/th&gt;
+      &lt;th&gt;Price&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href="product.html"&gt;Wedding Centerpieces&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;
+        &lt;div class="quantity-toggle-group"&gt;
+          &lt;span class="quantity-toggle quantity-toggle-plus"&gt;
+            &lt;span class="fa fa-plus"&gt;&lt;/span&gt;
+          &lt;/span&gt;
+          &lt;input type="text" value="10"&gt;
+          &lt;span class="quantity-toggle quantity-toggle-minus"&gt;
+            &lt;span class="fa fa-minus"&gt;&lt;/span&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/td&gt;
+      &lt;td&gt;$20.99&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Red Orchid&lt;/td&gt;
+      &lt;td&gt;
+        &lt;div class="quantity-toggle-group"&gt;
+          &lt;span class="quantity-toggle quantity-toggle-plus"&gt;
+            &lt;span class="fa fa-plus"&gt;&lt;/span&gt;
+          &lt;/span&gt;
+          &lt;input type="text" value="10"&gt;
+          &lt;span class="quantity-toggle quantity-toggle-minus"&gt;
+            &lt;span class="fa fa-minus"&gt;&lt;/span&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/td&gt;
+      &lt;td&gt;$&lt;span class="rowTotal"&gt;10.99&lt;/span&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;White Rose&lt;/td&gt;
+      &lt;td&gt;
+        &lt;div class="quantity-toggle-group"&gt;
+          &lt;span class="quantity-toggle quantity-toggle-plus"&gt;
+            &lt;span class="fa fa-plus"&gt;&lt;/span&gt;
+          &lt;/span&gt;
+          &lt;input type="text" value="10"&gt;
+          &lt;span class="quantity-toggle quantity-toggle-minus"&gt;
+            &lt;span class="fa fa-minus"&gt;&lt;/span&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/td&gt;
+      &lt;td&gt;$4.99&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Yellow Tulip&lt;/td&gt;
+      &lt;td&gt;
+        &lt;div class="quantity-toggle-group"&gt;
+          &lt;span class="quantity-toggle quantity-toggle-plus"&gt;
+            &lt;span class="fa fa-plus"&gt;&lt;/span&gt;
+          &lt;/span&gt;
+          &lt;input type="text" value="10"&gt;
+          &lt;span class="quantity-toggle quantity-toggle-minus"&gt;
+            &lt;span class="fa fa-minus"&gt;&lt;/span&gt;
+          &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/td&gt;
+      &lt;td&gt;$4.99&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+          </code>
+        </pre>
         <h3>Rendered element:</h3>
         <div class="grid">
           <div class="col-6of10">
@@ -536,6 +639,123 @@
           </div><!-- end .col-6of10 -->
         </div><!-- end .grid -->
       </section>
+
+      <section>
+        <h2>Footer</h2>
+        <h3>CSS selector:</h3>
+        <p>#footer-main</p>
+        <h3>Sample code:</h3>
+        <pre>
+          <code>
+&lt;footer id="footer-main"&gt;
+  &lt;div class="grid footer-row"&gt;
+    &lt;div class="col-4of12"&gt;
+      &lt;div class="footer-feature"&gt;
+        &lt;img src="holder.js/200x200/" width="200" height="200"&gt;
+        &lt;h4&gt;1. Pick an occasion&lt;/h4&gt;
+        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, facilis.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="col-4of12"&gt;
+      &lt;div class="footer-feature"&gt;
+        &lt;img src="holder.js/200x200/" width="200" height="200"&gt;
+        &lt;h4&gt;2. Find your flowers&lt;/h4&gt;
+        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, facilis.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="col-4of12"&gt;
+      &lt;div class="footer-feature"&gt;
+        &lt;img src="holder.js/200x200/" width="200" height="200"&gt;
+        &lt;h4&gt;3. Live your life&lt;/h4&gt;
+        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, facilis.&lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="footer-social"&gt;
+    &lt;div class="grid footer-row"&gt;
+      &lt;div class="col-4of12"&gt;
+        &lt;a href="#"&gt;
+          &lt;span class="fa fa-facebook fa-2x"&gt;&lt;/span&gt;
+          &lt;h4&gt;Facebook&lt;/h4&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class="col-4of12"&gt;
+        &lt;a href="#"&gt;
+          &lt;span class="fa fa-twitter fa-2x"&gt;&lt;/span&gt;
+          &lt;h4&gt;Twitter&lt;/h4&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class="col-4of12"&gt;
+        &lt;a href="#"&gt;
+          &lt;span class="fa fa-instagram fa-2x"&gt;&lt;/span&gt;
+          &lt;h4&gt;Instagram&lt;/h4&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="footer-contact"&gt;
+    &lt;div class="footer-row"&gt;
+      &lt;h4&gt;Order today!&lt;/h4&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/footer&gt;
+          </code>
+        </pre>
+        <h3>Rendered element:</h3>
+        <footer id="footer-main">
+          <div class="grid footer-row">
+            <div class="col-4of12">
+              <div class="footer-feature">
+                <img src="holder.js/200x200/" width="200" height="200">
+                <h4>1. Pick an occasion</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, facilis.</p>
+              </div>
+            </div>
+            <div class="col-4of12">
+              <div class="footer-feature">
+                <img src="holder.js/200x200/" width="200" height="200">
+                <h4>2. Find your flowers</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, facilis.</p>
+              </div>
+            </div>
+            <div class="col-4of12">
+              <div class="footer-feature">
+                <img src="holder.js/200x200/" width="200" height="200">
+                <h4>3. Live your life</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, facilis.</p>
+              </div>
+            </div>
+          </div>
+          <div class="footer-social">
+            <div class="grid footer-row">
+              <div class="col-4of12">
+                <a href="#">
+                  <span class="fa fa-facebook fa-2x"></span>
+                  <h4>Facebook</h4>
+                </a>
+              </div>
+              <div class="col-4of12">
+                <a href="#">
+                  <span class="fa fa-twitter fa-2x"></span>
+                  <h4>Twitter</h4>
+                </a>
+              </div>
+              <div class="col-4of12">
+                <a href="#">
+                  <span class="fa fa-instagram fa-2x"></span>
+                  <h4>Instagram</h4>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-contact">
+            <div class="footer-row">
+              <h4>Order today!</h4>
+            </div>
+          </div>
+        </footer>
+      </section>
+
 
     </section>
     <!-- // COMBINED ELEMENTS SECTION -->
