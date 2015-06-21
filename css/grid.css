@@ -64,6 +64,10 @@
 	width: 66.666666%;
 }
 
+.col-9of12 {
+	width: 75%;
+}
+
 .col-12of12 {
 	width: 100%;
 }
@@ -145,6 +149,16 @@
 	#product-detail .col-4of10 .text-box {
 		text-align: center;
 	}
+	.service-feature-box .col-4of12 {
+		width: 50%;
+	}
+	.service-feature-box .grid .col-4of12:last-child,
+	.service-feature-box .grid .col-2of10:last-child {
+		display: none;
+	}
+	.service-feature-box .col-2of10 {
+		width: 25%;
+	}
 }
 
 @media(max-width: 42.5em) {
@@ -157,6 +171,12 @@
 	#footer-main .footer-feature img {
 		width: 10em;
 		height: 10em;
+	}
+	.service-feature-box .grid .col-2of10:nth-last-child(-n+2) {
+		display: none;
+	}
+	.service-feature-box .col-2of10 {
+		width: 33.33333%;
 	}
 }
 
@@ -180,6 +200,16 @@
 	#payment-detail .table .quantity-toggle {
 		width: 100%;
 		margin: 0.5em auto;
+	}
+	.service-feature-box .col-4of12 {
+		width: 100%;
+	}
+	.service-feature-box p {
+		text-align: center;
+		margin: 0 auto;
+	}
+	.service-feature-box .grid .col-4of12:last-child {
+		display: block;
 	}
 }
 

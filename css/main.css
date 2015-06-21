@@ -37,22 +37,23 @@ body {
 }
 
 .btn:hover, .btn:focus {
+  border: 3px solid #999                                      ;
   background-color: #999;
   color: #333;
-  border: 3px solid #999                                      ;
 }
 
 .btn.btn-primary, button, input[type='submit'] {
+  border: 3px solid #DDD;
   background-color: #fff;
   color: #022211;
-  border: 3px solid #022211;
   
 }
 
 .btn.btn-primary:hover, button:hover, input[type='submit']:hover,
 .btn.btn-primary:focus, button:focus, input[type='submit']:focus {
+  border-color: #022211;
   background-color: #022211;
-  color: #EEDD00;
+  color: #FFF;
   cursor: pointer;
 
 }
@@ -66,7 +67,7 @@ body {
 .btn.btn-nav:focus {
   background-color: #022211;
   border: 3px solid #022211;
-  color: #EEDD00;
+  color: #FFF;
 }
 
 .btn.btn-block {
@@ -163,7 +164,7 @@ form {
 }
 
 .form-group:hover label {
-  color: #EEDD00;
+  color: #000;
   -webkit-transition: color 0.25s ease-out;
      -moz-transition: color 0.25s ease-out;
           transition: color 0.25s ease-out;
@@ -184,7 +185,7 @@ textarea {
   font-size: 1em;
   width: 100%;
   max-width: 30em;
-  border: 3px solid #022211;
+  border: 3px solid #DDD;
   padding: 1em 1.2em;
   background-color: #fff;
 }
@@ -203,9 +204,12 @@ input.error {
 }
 
 select {
-  border: 3px #022211 solid;
+  border: 0;
+  height: 3.5em;
+  line-height: 3.5em;
+  border: 3px #DDD solid;
   padding: 0.5em;
-  background: none;
+  background-color: #FFF;
   font-size: 1em;
 }
 
@@ -287,44 +291,59 @@ img {
 }
 
 .flex-control-nav {
-  width: auto;
-  bottom: 10px;
-  right: 10px;
+  margin: 1em;
+  position: static;
+  width: 100%;
 }
 
 .flex-caption {
   position: absolute;
-  margin: 0;
-  max-width: none;
+  background: #FFF;
+  border: 3px solid #DDD;
+  margin: 0 auto;
+  max-width: 100%;
   width: 100%;
   padding: 2%;
   left: 0;
   bottom: 0;
-  /*background: rgba(0,0,0,.5);*/
-  color: #000;
-  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
-  font-size: 24px;
-  line-height: 36px;
+  text-align: center;
+}
+
+
+/* ---------------------------- SERVICES PANEL ----------------------------- */
+#services-panel {
   text-align: left;
 }
 
-#services-panel,
-#review-panel,
-.service-text {
+#services-panel section {
+  margin-bottom: 8em;
+}
+
+#services-panel h3 {
+  color: #00CC00;
+  font-family: "MF", "Gafata", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.service-box {
+  margin: 2em auto;
+  text-align: center;
+}
+
+.service-box h3 {
+  font-size: 3em;
+}
+
+.service-text p {
+  font-size: 1.5em;
+  line-height: 1.3em;
+  margin: 0 auto;
+}
+
+.service-feature-box p {
   text-align: left;
+  max-width: 22em;
 }
 
-#services-panel h2 {
-  width: 100%;
-}
-
-.service-text {
-  padding-right: 2em;
-}
-
-.service-media {
-  float: right;
-}
 /* ---------------------- PRODUCT LIST ------------------------ */
 .product-feature,
 .product-feature-side {
@@ -613,6 +632,7 @@ img {
 
 .footer-social .footer-row a {
   text-decoration: none;
+  padding: 1em auto;
 }
 
 .footer-social .footer-row h4 {

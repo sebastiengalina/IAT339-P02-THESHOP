@@ -3,18 +3,18 @@ TASKS
 
 
 Sebastien
-- Responsive index page / listing page
-- Work the narrative into the index page (bootstrappy startuppy)
+/ Responsive index page / listing page
+/ Work the narrative into the index page (bootstrappy startuppy)
 - Navigation bar for mobile (dropdown near bottom for easy thumb access)s
 - Clean up credit-card form (faded until user clicks Pay)
 - Filter column for product listing
-- Payment confirmation page
-- Input fields too bold
+/ Payment confirmation page
+/ Input fields too bold
 - Contact section in footer?
 - Active states for main navigation menu
 - Clearer hierarchy on package page
 	- Price closer to top -> tie this in with the centerpiece package + contents of package
-	- Fixed add to cart + price button?
+	- Fix add to cart + price button?
 	- Add to cart + more package detail + quantity form near bottom.
 	- "treat yourself" should be should be in grid form just like other 2, reduce p font size
 	- Price text not bold enough relative to other text around it
