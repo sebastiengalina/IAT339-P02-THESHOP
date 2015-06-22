@@ -218,7 +218,7 @@ select option {
 
 button, input[type='submit'] {
   color: #022211;
-  border: 3px solid #022211;
+  border: 3px solid #DDD;
   font-size: 1em;
   margin: 0;
 }
@@ -439,6 +439,20 @@ img {
 
 .product-item {
   margin-bottom: 2rem;
+}
+
+.product-filter {
+  text-align: left;
+  padding-right: 1em;
+}
+
+.product-filter label {
+  border: 3px solid #DDD;
+  padding: 1em;
+}
+
+.product-filter label:hover {
+  cursor: pointer;
 }
 
 /* ---------------------- PRODUCT DETAIL ------------------------ */

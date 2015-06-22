@@ -7,7 +7,7 @@ Sebastien
 / Work the narrative into the index page (bootstrappy startuppy)
 - Navigation bar for mobile (dropdown near bottom for easy thumb access)s
 - Clean up credit-card form (faded until user clicks Pay)
-- Filter column for product listing
+/ Filter column for product listing
 / Payment confirmation page
 / Input fields too bold
 - Contact section in footer?
