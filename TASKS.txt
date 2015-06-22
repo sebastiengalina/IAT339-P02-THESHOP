@@ -12,12 +12,12 @@ Sebastien
 / Input fields too bold
 - Contact section in footer?
 / Active states for main navigation menu
-- Clearer hierarchy on package page
-	- Price closer to top -> tie this in with the centerpiece package + contents of package
-	- Fix add to cart + price button?
-	- Add to cart + more package detail + quantity form near bottom.
-	- "treat yourself" should be should be in grid form just like other 2, reduce p font size
-	- Price text not bold enough relative to other text around it
+/ Clearer hierarchy on package page
+	/ Price closer to top -> tie this in with the centerpiece package + contents of package
+	/ Fix add to cart + price button?
+	/ Add to cart + more package detail + quantity form near bottom.
+	/ "treat yourself" should be should be in grid form just like other 2, reduce p font size
+	/ Price text not bold enough relative to other text around it
 
 
 Rachel

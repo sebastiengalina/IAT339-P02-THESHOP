@@ -224,6 +224,8 @@
 	}
 	#payment-detail .table .quantity-toggle-group input {
  		max-width: 100%;
+ 		text-align: center;
+ 		border: none;
 	}
 	.service-feature-box .col-4of12 {
 		width: 100%;
