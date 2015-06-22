@@ -22,7 +22,6 @@ body {
 .btn, button, input[type='submit'] {
   display: inline-block;
   padding: 0.5em 0.75em;
-  margin: 0 0.25em;
   padding: 1em 1.2em;
   color: #666;
   background-color: #DDD;
@@ -43,6 +42,7 @@ body {
 }
 
 .btn.btn-primary, button, input[type='submit'] {
+  font-family: "Gafata", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   border: 3px solid #DDD;
   background-color: #fff;
   color: #022211;
@@ -68,6 +68,12 @@ body {
   background-color: #022211;
   border: 3px solid #022211;
   color: #FFF;
+}
+
+.btn.btn-nav.active {
+  background-color: #FFF;
+  border-color: #00CC00;
+  color: #666;
 }
 
 .btn.btn-block {
@@ -226,6 +232,7 @@ button, input[type='submit'] {
 
 .form-actions {
   margin: 1rem auto;
+  text-align: left;
 }
 .form-actions .btn {
   margin: 0;
@@ -298,8 +305,10 @@ img {
 
 .flex-caption {
   position: absolute;
+  /*
   background: #FFF;
   border: 3px solid #DDD;
+  */
   margin: 0 auto;
   max-width: 100%;
   width: 100%;
@@ -356,6 +365,11 @@ img {
 
 #products-list h4 {
   margin: 0.5em 0;
+}
+
+#products-list .price {
+  font-family: "Helvetica Neue";
+  font-weight: bold;
 }
 
 #products-list .col-2of10 {
@@ -453,6 +467,9 @@ img {
 
 .product-filter label:hover {
   cursor: pointer;
+  background-color: #022211;
+  border-color: #022211;
+  color: #FFF;
 }
 
 /* ---------------------- PRODUCT DETAIL ------------------------ */
@@ -602,6 +619,27 @@ img {
 .payment-reminders h2 {
   margin: 0.3em;
 }
+
+#payment-detail .grid [class^='col-'] {
+  padding: 0.5rem;
+}
+
+.order-form {
+
+}
+
+.payment-form {
+  -webkit-transition: all 0.5s ease-out;
+     -moz-transition: all 0.5s ease-out;
+          transition: all 0.5s ease-out;
+}
+
+.payment-form.collapsed {
+  overflow: hidden;
+  height: 10em;
+  opacity: 0.25;
+}
+
 
 /* ------------------------- FOOTER --------------------------- */
 #footer-main {
