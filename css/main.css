@@ -154,10 +154,14 @@ figure {
   text-align: left;
   padding: 0;
   margin: 2em 0;
+  background-color: #CCC;
+  padding: 0.25em;
 }
 
 figcaption {
   text-transform: italic;
+  padding: 0.25em;
+  color: #333;
 }
 
 
@@ -352,7 +356,7 @@ img {
 
 .service-feature-box p {
   text-align: left;
-  max-width: 22em;
+  padding-right: 2em;
 }
 
 /* ---------------------- PRODUCT LIST ------------------------ */
