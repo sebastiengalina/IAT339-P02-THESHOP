@@ -24,7 +24,7 @@ Rachel
 - Branding logo/title
 - Move reviews to product detail page
 	- Review/Feedback form on product detail page (near the bottom?)
-- Icons for narrative (the noun project)
+/ Icons for narrative (the noun project)
 - Add review (stars) to product listing?
 - content citations page
 - Responsive images
