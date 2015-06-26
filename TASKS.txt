@@ -25,7 +25,7 @@ Rachel
 - Move reviews to product detail page
 	- Review/Feedback form on product detail page (near the bottom?)
 / Icons for narrative (the noun project)
-- Add review (stars) to product listing?
+/ Add review (stars) to product listing?
 - content citations page
 - Responsive images
 / Make search bar longer
