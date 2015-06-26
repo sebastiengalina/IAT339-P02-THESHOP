@@ -272,6 +272,7 @@ button, input[type='submit'] {
 
 #main-nav .nav-box {
   text-align: right;
+  padding-top: 8.5em;
 }
 
 #main-nav .btn.btn-nav {
@@ -284,6 +285,12 @@ img {
 }
 
 /* ---------------------- INDEX ------------------------ */
+#logo {
+  width: 10em;
+  display: block;
+  margin-bottom: 0.3em;
+}
+
 .flexslider {
   margin: 0;
 }
