@@ -28,7 +28,7 @@ Rachel
 - Add review (stars) to product listing?
 - content citations page
 - Responsive images
-- Make search bar longer
+/ Make search bar longer
 
 Together
 - Reinforce 3-step narrative (from footer) on the index page
