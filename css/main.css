@@ -245,6 +245,8 @@ button, input[type='submit'] {
 /* 
   COMBINED ELEMENTS -------------------
 */
+
+
 #header-main {
   border: thin #EEE solid;
 }
@@ -261,8 +263,7 @@ button, input[type='submit'] {
 }
 
 #main-nav .brand-box {
-  text-align: left;
-  padding: 1rem 0.5rem;
+  text-align: center;
 }
 
 #main-nav .brand-box h2,
@@ -271,8 +272,7 @@ button, input[type='submit'] {
 }
 
 #main-nav .nav-box {
-  text-align: right;
-  padding-top: 8.5em;
+  padding-top: 1.5em;
 }
 
 #main-nav .btn.btn-nav {
@@ -284,12 +284,32 @@ img {
   height: auto;
 }
 
-/* ---------------------- INDEX ------------------------ */
 #logo {
+  margin: 0 auto;
   width: 10em;
   display: block;
   margin-bottom: 0.3em;
 }
+
+@media(min-width: 41.5625em) {
+    #logo {
+      margin: 0;
+      margin-bottom: 0.3em;
+    }
+
+    #main-nav .brand-box {
+      text-align: left;
+      padding: 1rem 0.5rem;
+    }
+
+    #main-nav .nav-box {
+      text-align: right;
+      padding-top: 8.5em;
+    }
+}
+
+/* ---------------------- INDEX ------------------------ */
+
 
 .flexslider {
   margin: 0;

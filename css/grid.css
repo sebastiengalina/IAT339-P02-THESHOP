@@ -202,6 +202,7 @@
 }
 
 @media(max-width: 41.5625em) {
+	#main-nav .col-4of10,
 	#main-nav .col-6of10 .col-4of10,
 	#main-nav .col-6of10 .col-2of10 {
 		width: 100%;
