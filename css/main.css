@@ -513,6 +513,23 @@ img {
   font-size: 0.7em;
 }
 
+.product-review label {
+  text-align: left;
+}
+
+.product-review input[type='text'],
+.product-review input[type='email'],
+.product-review textarea {
+  max-width: 100%;
+}
+
+.product-review input[type='submit'] {
+  float: left;
+}
+
+.product-review .product-rating {
+  text-align: left;
+}
 /* ------------------------- PRODUCT DETAIL 2 (SEB) ----------------------------- */
 #product-detail .planter-box {
   margin: 2.5em auto;
