@@ -1,16 +1,47 @@
 <!doctype html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<!-- website title -->
-	<title>References</title>
-	<!-- stylesheets -->
-	<link rel="stylesheet" href="../css/main.css">
-	<link rel="stylesheet" href="../css/grid.css">
-</head>
+<html>
+	<head>
+	    <link rel="stylesheet" href="../fonts/font-awesome-4.3-2.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="../css/main.css">
+		<link rel="stylesheet" href="../css/grid.css">
+		<script src="../js/holder.min.js"></script>
 
-<body>
-	<div>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Payment Confirmed</title>	
+	</head>
+
+	<body>
+		<header id="header-main" role="banner">
+		    <nav id="main-nav" role="navigation">
+	        	<div class="grid">
+	        		<div class="col-4of10 brand-box">
+	            		<a href="index.html"><img src="../images/logo.png" id="logo"></a>
+	               		<p>Flowers for every occasion.</p>
+	            	</div>
+	            	<div class="col-6of10 nav-box">
+	            		<div class="grid">
+	              			<div class="col-4of10">
+	              				<form id="search-form" action="#">
+	              					<input role="search" type="text" name="search-box" placeholder="Search...">
+	              				</form>
+	              			</div>
+	              			<div class="col-2of10">
+	              				<a href="about.html" class="btn btn-nav btn-block">About</a>
+	              			</div>
+	              			<div class="col-2of10">
+	              				<a href="product_list.html" class="btn btn-nav btn-block">Packages</a>
+	              			</div>
+	              			<div class="col-2of10">
+	              				<a href="payment.html" class="btn btn-nav btn-block"><span class="fa fa-shopping-cart"></span> Cart (1)</a>
+	              			</div>
+	              		</div><!-- end .grid -->
+	             	</div><!-- end .col-6of10.nav-box -->
+	          	</div><!-- end .grid -->
+	        </nav><!-- end #nav-main -->
+        </header><!-- end #header-main -->
+
+		<div id="wrap">
+
 		<h2>Images</h2>
 		<ul>
 			<li>https://myfopinion.files.wordpress.com/2015/02/24flower-023.jpg</li>
@@ -70,6 +101,53 @@
 			<li>http://www.proflowers.com/blog/history-and-meaning-of-tulip</li>
 			<li>http://www.roseforlove.com/the-meanings-of-pink-roses-light-pink-pink-bright-pink-ezp-32</li>
 		</ul>
-	</div>
-</body>
+
+		</div>
+
+		<footer id="footer-main">
+			<div class="footer-social">
+				<div class="grid footer-row">
+					<div class="col-4of12">
+						<a href="#">
+							<span class="fa fa-facebook fa-2x"></span>
+							<h4>Facebook</h4>
+						</a>
+					</div>
+					<div class="col-4of12">
+						<a href="#">
+							<span class="fa fa-twitter fa-2x"></span>
+							<h4>Twitter</h4>
+						</a>
+					</div>
+					<div class="col-4of12">
+						<a href="#">
+							<span class="fa fa-instagram fa-2x"></span>
+							<h4>Instagram</h4>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer-contact">
+				<div class="footer-row">
+					<h4>Thank you.</h4>
+				</div>
+			</div>
+		</footer>
+
+	    <script type="text/javascript">
+	      WebFontConfig = {
+	        google: { families: [ 'Bree+Serif::latin', 'Questrial::latin', 'Gafata::latin' ] }
+	      };
+	      (function() {
+	        var wf = document.createElement('script');
+	        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+	          '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+	        wf.type = 'text/javascript';
+	        wf.async = 'true';
+	        var s = document.getElementsByTagName('script')[0];
+	        s.parentNode.insertBefore(wf, s);
+	      })();
+	    </script>
+	</body>
+
 </html>

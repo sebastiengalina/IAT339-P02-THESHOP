@@ -129,6 +129,7 @@ ul, ol {
   padding: 0.5em;
   padding-left: 2.5em;
   font-weight: bold;
+  text-align: left;
 }
 
 ul {
@@ -140,7 +141,7 @@ ul li {
 }
 
 ul li:before {
-  content: "•";
+  content: "+";
   margin-right: 0.5em;
   color: #BBB;
 }
@@ -386,6 +387,10 @@ img {
   padding-right: 2em;
 }
 
+.service-feature-box a {
+  text-decoration: none;
+}
+
 /* ---------------------- PRODUCT LIST ------------------------ */
 .product-feature,
 .product-feature-side {
@@ -615,6 +620,7 @@ img {
   padding: 0.5em;
 }
 
+
 #contact-detail .grid form{
   text-align: left;
 }
@@ -706,7 +712,15 @@ img {
 /* ------------------------- FOOTER --------------------------- */
 #footer-main {
   margin-top: 3em;
-  background-color: #CCC;
+  background-color: #DFEDC8;
+}
+
+#footer-main a {
+  color: #DFEDC8;
+}
+
+#footer-main a:hover {
+  color: #00FF00;
 }
 
 .footer-row {
@@ -734,6 +748,15 @@ img {
   margin: 0 auto;
 }
 
+.footer-citations {
+  padding: 0.5em;
+  background-color: #022211;
+  text-align: center;
+}
+.footer-citations h4 {
+  margin: 0;
+}
+
 .footer-social {
   background-color: #333;
 }
@@ -747,11 +770,10 @@ img {
 .footer-social .footer-row a {
   text-decoration: none;
   padding: 1em auto;
+  display: block;
+  margin-top: 0.5em;
 }
 
-.footer-social .footer-row h4 {
-  margin: 0;
-}
 
 .footer-contact {
   text-align: center;
