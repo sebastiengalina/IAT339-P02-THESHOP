@@ -5,12 +5,12 @@ TASKS
 Sebastien
 / Responsive index page / listing page
 / Work the narrative into the index page (bootstrappy startuppy)
-- Navigation bar for mobile (dropdown near bottom for easy thumb access)s
+/ Navigation bar for mobile (dropdown near bottom for easy thumb access)s
 / Clean up credit-card form (faded until user clicks Next)
 / Filter column for product listing
 / Payment confirmation page
 / Input fields too bold
-- Contact section in footer?
+/ Contact section in footer?
 / Active states for main navigation menu
 / Clearer hierarchy on package page
 	/ Price closer to top -> tie this in with the centerpiece package + contents of package
@@ -31,5 +31,5 @@ Rachel
 / Make search bar longer
 
 Together
-- Reinforce 3-step narrative (from footer) on the index page
+/ Reinforce 3-step narrative (from footer) on the index page
 - Interactivity / Functional / Usability / Pleasurable

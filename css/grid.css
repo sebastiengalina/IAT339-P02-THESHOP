@@ -95,6 +95,13 @@
 	#main-nav .col-6of10 {
 		width: 100%;
 	}
+	#main-nav .col-6of10 {
+		position: absolute;
+		visibility: hidden;
+	}
+	a.nav-toggle {
+		display: block;
+	}
 }
 
 @media(max-width: 65.375em) {
@@ -206,6 +213,13 @@
 	#main-nav .col-6of10 .col-4of10,
 	#main-nav .col-6of10 .col-2of10 {
 		width: 100%;
+	}
+
+	a.nav-toggle {
+		padding: 1.5em 2em;
+		position: fixed;
+		top: 0;
+		right: 1.5em;
 	}
 	.hero-box .col-4of12 {
 		width: 100%;

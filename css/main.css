@@ -280,6 +280,20 @@ button, input[type='submit'] {
   margin: 0;
 }
 
+a.nav-toggle {
+  float: right;
+  padding: 3em;
+  background-color: #00CC00;
+  text-decoration: none;
+  color: #FFF;
+
+  display: none;
+}
+
+a.nav-toggle:hover {
+  background-color: #006600;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -287,9 +301,14 @@ img {
 
 #logo {
   margin: 0 auto;
-  width: 10em;
+  width: 6em;
   display: block;
   margin-bottom: 0.3em;
+}
+
+#main-nav.open .col-6of10 {
+  position: static !important;
+  visibility: visible !important;
 }
 
 @media(min-width: 41.5625em) {
@@ -305,7 +324,6 @@ img {
 
     #main-nav .nav-box {
       text-align: right;
-      padding-top: 8.5em;
     }
 }
 
