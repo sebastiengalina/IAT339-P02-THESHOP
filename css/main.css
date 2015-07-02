@@ -537,13 +537,17 @@ img {
   padding-right: 2em;
 }
 
+.hero-box {
+  margin-top: 2.5em;
+}
+
 #product-detail .product-customize .col-3of10 {
   padding-right: 1em;
 }
 
 .price-box {
   font-size: 2em;
-  padding: 2em 0;
+  margin: 2em 0;
 }
 
 .price-box .numeric {
