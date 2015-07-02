@@ -779,6 +779,11 @@ img {
   background-color: #333;
 }
 
+.footer-social h4{
+  margin: 0.3em 0;
+  font-size: 0.8em;
+}
+
 .footer-social .footer-row,
 .footer-contact .footer-row {
   max-width: 30em;
