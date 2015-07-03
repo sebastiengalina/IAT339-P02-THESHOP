@@ -514,6 +514,12 @@ img {
 .product-filter {
   text-align: left;
   padding-right: 1em;
+
+}
+
+.affixed {
+  position: fixed;
+  top: 0;
 }
 
 .product-filter label {
