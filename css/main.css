@@ -2,6 +2,10 @@
   STYLE GUIDE STYLING 
   Default styling for the style guide 
 */
+html,body {
+  width: 100%;
+}
+
 body {
   font-family: "Gafata", "Helvetica Neue", "Helvetica", "Arial", "Verdana", sans-serif;
   padding: 0;
@@ -247,7 +251,6 @@ button, input[type='submit'] {
   COMBINED ELEMENTS -------------------
 */
 
-
 #header-main {
   border: thin #EEE solid;
 }
@@ -273,7 +276,7 @@ button, input[type='submit'] {
 }
 
 #main-nav .nav-box {
-  padding-top: 1.5em;
+  padding: 1.5em 0;
 }
 
 #main-nav .btn.btn-nav {
@@ -327,51 +330,24 @@ img {
     }
 }
 
-/* ---------------------- INDEX ------------------------ */
-
-
-.flexslider {
-  margin: 0;
-}
-
-.flexslider ul, .flexslider ol {
-  max-width: none;
-  padding: 0;
-}
-
-.flexslider ul li {
+#hero {
   position: relative;
-}
-
-.flexslider ul li:before {
-  content: none;
-}
-
-.flex-control-nav {
-  margin: 1em;
-  position: static;
-  width: 100%;
-}
-
-.flex-caption {
-  position: absolute;
-  /*
-  background: #FFF;
-  border: 3px solid #DDD;
-  */
   text-align: center;
+}
+
+#hero h1 {
+  margin: auto;
+  font-size: 6em;
   background-color: #FFF;
-  background-color: rgba(255,255,255,0.8);
-  margin: 0 auto;
-  max-width: 100%;
+  background-color: rgba(255,255,255,0.7);
+  position: absolute;
   width: 100%;
-  padding: 2%;
   left: 0;
   bottom: 0;
 }
 
 
-/* ---------------------------- SERVICES PANEL ----------------------------- */
+/* ---------------------------- INDEX SERVICES PANEL ----------------------------- */
 #services-panel {
   text-align: left;
 }
@@ -402,7 +378,8 @@ img {
 
 .service-feature-box p {
   text-align: left;
-  padding-right: 2em;
+  padding-right: 1em;
+  padding-left: 1em;
 }
 
 .service-feature-box a {
@@ -418,6 +395,10 @@ img {
 
 #products-list {
 }
+
+#products-list a {
+    text-decoration: none;
+  }
 
 #products-list h4 {
   margin: 0.5em 0;
@@ -519,7 +500,9 @@ img {
 
 .affixed {
   position: fixed;
-  top: 0;
+  z-index: 99;
+  bottom: 0;
+  border-color: #333;
 }
 
 .product-filter label {
@@ -532,6 +515,9 @@ img {
   background-color: #022211;
   border-color: #022211;
   color: #FFF;
+}
+
+.product-filter .btn-checkout {
 }
 
 .product-description {
@@ -553,6 +539,10 @@ img {
 
 #product-detail .product-customize .col-3of10 {
   padding-right: 1em;
+}
+
+#product-detail .grid .price-box {
+  text-align: left;
 }
 
 .price-box {
@@ -728,6 +718,10 @@ img {
   padding: 0.5rem;
 }
 
+#payment-detail .grid .col-4of10 thead {
+  color: #000;
+}
+
 .order-form {
 
 }
@@ -744,6 +738,10 @@ img {
   opacity: 0.25;
 }
 
+.payment-form.collapsed:hover {
+  opacity: 0.7;
+}
+
 
 /* ------------------------- FOOTER --------------------------- */
 #footer-main {
@@ -752,11 +750,11 @@ img {
 }
 
 #footer-main a {
-  color: #DFEDC8;
+  color: #006600;
 }
 
 #footer-main a:hover {
-  color: #00FF00;
+  color: #004400;
 }
 
 .footer-row {
@@ -786,7 +784,7 @@ img {
 
 .footer-citations {
   padding: 0.5em;
-  background-color: #022211;
+  background-color: #DFEDC8;
   text-align: center;
 }
 .footer-citations h4 {
@@ -794,7 +792,7 @@ img {
 }
 
 .footer-social {
-  background-color: #333;
+  background-color: #CEDCB7;
 }
 
 .footer-social h4{
@@ -818,8 +816,8 @@ img {
 
 .footer-contact {
   text-align: center;
-  background-color: #222;
-  color: #FFF;
+  background-color: #BDCBA6;
+  color: #00CC00;
 }
 
 .footer-contact .footer-row h4 {

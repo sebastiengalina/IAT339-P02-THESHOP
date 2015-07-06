@@ -2,15 +2,13 @@
 <html>
 	<head>
 	    <link rel="stylesheet" href="../fonts/font-awesome-4.3-2.0/css/font-awesome.min.css">
+	    <link rel="stylesheet" href="../css/normalize.css">
 		<link rel="stylesheet" href="../css/main.css">
 		<link rel="stylesheet" href="../css/grid.css">
-		<script src="../js/jquery.min.js"></script>
-		<script src="../js/holder.min.js"></script>
-		<script src="../js/cart.js"></script>
-		<script src="../js/main.js"></script>
 
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>My Cart (1)</title>	
+	    <meta charset="utf-8">
+		<title>My Cart (1) | The Flower Shop</title>	
 	</head>
 
 	<body>
@@ -19,13 +17,13 @@
 		    	<a href="#" class="nav-toggle">MENU</a>
 	        	<div class="grid">
 	        		<div class="col-4of10">
-	            		<a href="index.html"><img src="../images/logo-small.png" id="logo" width="100" height="100"></a>
+	            		<a href="index.html"><img src="../images/logo-small.png" id="logo" width="100" height="100" alt="site logo"></a>
 	            	</div>
 	            	<div class="col-6of10 nav-box">
 	            		<div class="grid">
 	              			<div class="col-4of10">
-	              				<form id="search-form" action="#">
-	              					<input role="search" type="text" name="search-box" placeholder="Search...">
+	              				<form id="search-form" action="#" role="search">
+	              					<input type="text" name="search-box" placeholder="Search...">
 	              				</form>
 	              			</div>
 	              			<div class="col-2of10">
@@ -129,121 +127,69 @@
 						</div>
 					</div><!-- end .col-6of10 -->
 					<div class="col-4of10">
-						<div id="payment-form" class="payment-form collapsed">
+						<a href="payment-2.html">
+							<div id="payment-form" class="payment-form collapsed">
 
-							<!-- modified from IAT235: P03 by Sebastien Galina -->
-							<form method="post" action=".">
-								<table class="table">
-									<thead>
-										<tr><th>Payment Form</th></tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>
-											<div class="form-group">
-												<label>Payment Method:</label>
-												<div class="grid payment-methods">
-													<div class="col-4of12">
-														<div class="cc-option">
-															<label for="form-cc-1">
-																<span class="fa fa-cc-visa"></span>
-																<input type="radio" id="form-cc-1" name="form-name-1" value="visa">
-																<span class="cc-name">Visa</span>
-															</label>
+								<!-- modified from IAT235: P03 by Sebastien Galina -->
+								<form method="post" action=".">
+									<table class="table">
+										<thead>
+											<tr><th>Payment Form</th></tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>
+												<div class="form-group">
+													<label>Payment Method:</label>
+													<div class="grid payment-methods">
+														<div class="col-4of12">
+															<div class="cc-option">
+																<label for="form-cc-1">
+																	<span class="fa fa-cc-visa"></span>
+																	<input type="radio" id="form-cc-1" name="form-name-1" value="visa">
+																	<span class="cc-name">Visa</span>
+																</label>
+															</div>
+														</div>
+														<div class="col-4of12">
+															<div class="cc-option">
+																<label for="form-cc-3">
+																	<span class="fa fa-cc-amex"></span>
+																	<input type="radio" id="form-cc-3" name="form-name-1" value="visa">
+																	<span class="cc-name">Amex</span>
+																</label>
+															</div>
+														</div>
+														<div class="col-4of12">
+															<div class="cc-option">
+																<label for="form-cc-2">
+																	<span class="fa fa-cc-mastercard"></span>
+																	<input type="radio" id="form-cc-2" name="form-name-1" value="visa">
+																	<span class="cc-name">MasterCard</span>
+																</label>
+															</div>
 														</div>
 													</div>
-													<div class="col-4of12">
-														<div class="cc-option">
-															<label for="form-cc-3">
-																<span class="fa fa-cc-amex"></span>
-																<input type="radio" id="form-cc-3" name="form-name-1" value="visa">
-																<span class="cc-name">Amex</span>
-															</label>
-														</div>
-													</div>
-													<div class="col-4of12">
-														<div class="cc-option">
-															<label for="form-cc-2">
-																<span class="fa fa-cc-mastercard"></span>
-																<input type="radio" id="form-cc-2" name="form-name-1" value="visa">
-																<span class="cc-name">MasterCard</span>
-															</label>
-														</div>
-													</div>
+												</div><!-- end .form-group -->
+												</td>
+											</tr>
+											<tr>
+												<td>
+												<div class="form-group">
+													<label for="form-name-2">Cardholder Name:</label>
+													<input type="text" id="form-name-2" placeholder="Jane Doe" required>
 												</div>
-											</div><!-- end .form-group -->
-											</td>
-										</tr>
-										<tr>
-											<td>
-											<div class="form-group">
-												<label for="form-name-2">Cardholder Name:</label>
-												<input type="text" id="form-name-2" placeholder="Jane Doe" required>
-											</div>
-											</td>
-										</tr>
-										<tr>
-											<td>
-											<div class="form-group">
-												<label for="form-name-3">Credit Card Number:</label>
-												<input type="text" id="form-name-3" placeholder="XXXXXXXXXXXXXXXXX" required>
-											</div>
-											</td>
-										</tr>
-										<tr>
-											<td>
-											<div class="grid card-details">
-												<div class="col-4of12">
-													<div class="form-group">
-														<label for="form-name-4">Expiry Month:</label>
-														<select id="form-name-4" required>
-															<option value="">MM</option>
-															<option value="01">01</option>
-															<option value="02">02</option>
-															<option value="03">03</option>
-															<option value="04">04</option>
-															<option value="05">05</option>
-															<option value="06">06</option>
-															<option value="07">07</option>
-															<option value="08">08</option>
-															<option value="09">09</option>
-															<option value="10">10</option>
-															<option value="11">11</option>
-															<option value="12">12</option>
-														</select>
-													</div>
-												</div>
-												<div class="col-4of12">
-													<div class="form-group">
-														<label for="form-name-5">Expiry Year:</label>
-														<select id="form-name-5" required>
-															<option value="">YYYY</option>
-															<option value="2015">2015</option>
-															<option value="2016">2016</option>
-															<option value="2017">2017</option>
-															<option value="2018">2019</option>
-															<option value="2020">2020</option>
-														</select>
-													</div>
-												</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<div class="form-actions">
+										<a href="payment-confirmed.html" class="btn btn-primary">Finish + Pay</a>
+									</div>
+								</form>
 
-												<div class= "col-4of12">
-													<div class="form-group">
-														<label for="form-name-6">Security Code:</label>
-														<input type="text" id="form-name-6" placeholder="123" required>
-													</div>
-											    </div>
-											</div><!-- end .grid -->
-											</td>
-										</tr>
-									</tbody>
-								</table>
-								<div class="form-actions">
-									<a href="payment-confirmed.html" class="btn btn-primary">Finish + Pay</a>
-								</div>
-							</form>
-
-						</div>
+							</div>
+						</a>
 					</div><!-- end .col-4of10 -->
 				</div><!-- end .grid -->
 			</div><!-- end #payment-detail -->
@@ -279,6 +225,11 @@
 			</div>
 		</footer>
 
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/html5shiv.min.js"></script>
+		<script src="../js/holder.min.js"></script>
+		<script src="../js/cart.js"></script>
+		<script src="../js/main.js"></script>
 	    <script type="text/javascript">
 	      WebFontConfig = {
 	        google: { families: [ 'Bree+Serif::latin', 'Questrial::latin', 'Gafata::latin' ] }

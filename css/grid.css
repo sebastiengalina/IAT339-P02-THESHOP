@@ -98,9 +98,11 @@
 	#main-nav .col-6of10 {
 		position: absolute;
 		visibility: hidden;
+		left: -9999em;
 	}
 	a.nav-toggle {
 		display: block;
+
 	}
 }
 
@@ -216,10 +218,11 @@
 	}
 
 	a.nav-toggle {
+		z-index: 99;
 		padding: 1.5em 2em;
 		position: fixed;
+		right: 2em;
 		top: 0;
-		right: 1.5em;
 	}
 	.hero-box .col-4of12 {
 		width: 100%;
